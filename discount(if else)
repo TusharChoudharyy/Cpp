@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int qty,dis;
+    float rate,tot;
+    cout<<"enter quantity and rate "<<endl;
+    cin>>qty>>rate;
+    if(qty>1000){
+        dis=10;
+    }
+    else{
+        dis=0;
+    }
+    tot=(qty*rate)-(qty*rate*dis/100);
+    cout<<"total expenses=Rs "<<tot;
+}
