@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+float multi(float a, float b){
+	return a*b;
+	
+}
+
+int main() {
+	cout<<multi(2.2,4.3);
+}
